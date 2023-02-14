@@ -46,7 +46,7 @@ class LiveFeedType(enum.IntEnum):
     DEPTH_DATA      = 2
 
 class HistoricalDataType(enum.Enum):
-    Day = '1D'
+    Day = 'D'
     Minute = '1'
 
 class CryptoJsAES:
